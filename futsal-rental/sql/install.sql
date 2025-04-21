@@ -1,4 +1,4 @@
--- Create database if not exists
+ -- Create database if not exists
 CREATE DATABASE IF NOT EXISTS futsal_rental;
 USE futsal_rental;
 
