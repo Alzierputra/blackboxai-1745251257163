@@ -16,8 +16,8 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Base URL - Update this according to your server configuration
-define('BASE_URL', '');
+// Base URL - Set to the correct path for the development server
+define('BASE_URL', 'http://localhost:8000');
 
 // Directory paths
 define('ROOT_PATH', dirname(__DIR__));
